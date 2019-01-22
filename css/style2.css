@@ -373,6 +373,12 @@ section {
 	transition: all 400ms ease-in-out;
 }
 
+.about-item h3,
+.about-item p {
+	transition: all 400ms linear;
+}
+
+
 /* =========================================
                 Team
 ============================================ */
@@ -745,7 +751,7 @@ ul.social-list li:nth-child(3) a:hover {
 	right: 0;
 	background: rgba(14, 14, 17, 0.9);
 	cursor: -webkit-zoom-in;
-	cursor: zoom-in;
+	cursor: pointer;
 	opacity: 0;
 	-webkit-transition: all 0.8s ease;
 	transition: all 0.8s ease;
